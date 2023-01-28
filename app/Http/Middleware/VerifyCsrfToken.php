@@ -12,6 +12,7 @@ class VerifyCsrfToken extends Middleware
      * @var array
      */
     protected $except = [
-        //
+        // 'api/store',
+        // "http://127.0.0.1:3000"
     ];
 }
